@@ -63,7 +63,7 @@ def add_background(foreground_png: bytes, hex_color: str) -> bytes:
 def generate_sales_text() -> str:
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
     msg = client.messages.create(
-        model="claude-sonnet-4-6",
+        model="claude-haiku-4-5-20251001",
         max_tokens=300,
         messages=[{
             "role": "user",

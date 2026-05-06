@@ -1,6 +1,32 @@
+# Variables de entorno — NUNCA subir al repositorio
 .env
+.env.*
+!.env.example
+
+# Python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Entornos virtuales
 .venv/
 venv/
+env/
+
+# Logs
+*.log
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
