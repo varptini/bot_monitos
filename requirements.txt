@@ -3,3 +3,5 @@ anthropic==0.40.0
 Pillow==11.0.0
 requests==2.32.3
 python-dotenv==1.0.1
+rembg==2.0.59
+onnxruntime==1.19.2

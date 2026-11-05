@@ -1,0 +1,13 @@
+name: bot-monitos
+
+services:
+  bot:
+    container_name: bot_monitos
+    build: .
+    env_file: .env
+    restart: always
+    volumes:
+      - rembg_models:/root/.u2net
+
+volumes:
+  rembg_models:
